@@ -1,0 +1,20 @@
+GET http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "nomula_shiva",
+  "name": "Nomula Shivaprasad",
+  "password": "Shiva@2001",
+  "gender": "male",
+  "location": "Machapoor"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "nomula_shiva",
+  "password": "Shiva@2001"
+}
